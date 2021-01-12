@@ -1,0 +1,501 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*home page home buttons*/
+
+ ul{
+	list-style: none;
+	
+	
+	float :right;
+   
+	padding:10px;
+	margin :0 px;
+	
+}
+
+  ul li a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family:georgia;
+    color:black;
+	width:80px;
+	margin:  20px;
+	padding: 10px;
+    border-radius: 4px;
+	text-align: center;
+	height:25px;
+	line-height: 25px;
+	
+	
+}
+ul li a:hover{
+	background-color:grey;
+	color:black;
+	
+	
+}
+li{
+	display:inline;
+	
+}
+
+.homepageheader{
+	position:absolute;
+	top: 0;
+	padding-top: 30px;          
+	width: 100%;
+}
+    
+/*
+*/
+	
+
+
+
+/* home section*/
+
+
+ .Home{
+ background-image:url(images/spor-nedir-950x401.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ align-items: center;
+  height: 700px;
+  
+  margin-top: 35px;
+ 
+}
+
+
+.hometext h1{
+	font-size: 60px;
+	font-family:helvetica;
+	margin:10px;
+    margin-left:40px;
+	
+	
+}
+
+.hometext p{
+	font-size: 30px;
+	font-family:helvatica;
+	margin:10px;
+    margin-left:40px;
+	
+}
+
+
+/* why section*/
+
+.Whyplay h1{
+	font-family:helvetica;
+	font-size: 30px;
+	color:#AF0508;
+	}
+
+.Whyplay p{
+	font-family:helvetica;
+
+	font-size: 20px;
+	
+}
+.para1{
+	font-size: 20px;
+	padding:10px;
+	margin:20px;
+	
+}
+.imagechildcom{
+	float: left;
+	margin-right:10px;
+}
+
+
+.highligh
+{
+background-color:#AF0508;
+	color:white;
+}
+
+
+/*  read button   */
+.button1{
+ 
+	
+
+    padding:10px;
+	margin:30px;
+	margin-left: 21%;
+	
+}
+.button1:hover{
+	background-color: grey;
+	color:white;
+	cursor:pointer;
+}
+
+/* over here*/
+/* after read more firts why should play page css*/
+.whyshouldplay h1{
+	
+	font-size:40px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.whyshouldplay h2{
+	
+	font-size:40px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.whyshouldplay p{
+	
+	font-size:20px;
+	
+	color:grey;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.whyimage{
+
+display:block;
+margin-left:auto;
+margin-right:auto; 
+
+}
+/* over here*/
+/*benefits section*/
+.Benefits h1{
+	font-family:helvetica;
+	font-size: 30px;
+	}
+
+.Benefits p{
+	font-family:helvetica;
+	background-color: white;
+	
+font-size:20px;
+line-height:1.5em;
+
+padding:20px;  
+border-color:black;
+border-width:thick;
+border-style:double;
+	
+}
+
+
+.button2{
+ 
+	
+
+    padding:10px;
+	margin:30px;
+	margin-left:50%;
+	
+}
+.button2:hover{
+	background-color: grey;
+	color:white;
+	cursor:pointer;
+}
+/*over benefits section*/
+
+/*benefits of sports page css*/
+.benefitsofsports h1{
+font-size: 40px;
+	color: firebrick;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+.benefitsofsports h2{
+	font-size:30px;
+	color: firebrick;
+	
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.benefitsofsports p{
+	font-size:25px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/* sports section*/
+ 
+.sportsimage{
+	float: right;
+	
+	padding:0px;
+	margin:0px;
+}
+
+.sports h1{
+	font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.sports p{
+	font-size:20px;
+	font-family: helvetica;
+	background-color: yellow;
+	
+color:darkolivegreen;
+line-height:1.5em;
+
+padding:20px;  
+border-color:white;
+border-width:thick;
+border-style:double;
+
+}
+.sports h2{
+	font-size: 30px;
+	color:darkolivegreen;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.Club h1{
+	font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.Club h2{
+	font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+.Club p{
+	font-size: 30px;
+	color:slateblue;
+}
+.Club img{
+	transition: 2s;
+	
+	
+	padding: 40px;
+}
+	
+.Club img:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	
+	
+	
+}
+
+.Safety h1{
+	font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+	
+.Safety h2{
+		font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+
+}
+.Safety p{
+		font-size: 20px;
+	color:black;
+	background-color: grey;
+	
+
+line-height:1.5em;
+
+padding:20px;  
+border-color:gainsboro;
+border-width:thick;
+border-style:double;
+	border-radius: 20px;
+	
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+/* basketballindore*/
+.basketball h1 {
+	
+	
+font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.basketball h2 {
+	color:crimson;
+	text-align: center;
+font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+
+.basketball p {
+	
+	
+background-color:aquamarine;
+	
+color:maroon;
+line-height:1.5em;
+
+padding:20px;  
+border-color:white;
+border-width:thick;
+border-style:double;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.football h1 {
+	
+	
+font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.football h2 {
+	color:crimson;
+	text-align: center;
+font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+.football p {
+	
+	
+background-color:aquamarine;
+	
+color:maroon;
+line-height:1.5em;
+
+padding:20px;  
+border-color:white;
+border-width:thick;
+border-style:double;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.Badminton h1 {
+	
+	
+font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.Badminton h2 {
+	color:crimson;
+	text-align: center;
+font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.Badminton p {
+	
+
+	
+background-color:aquamarine;
+	
+color:maroon;
+line-height:1.5em;
+
+padding:20px;  
+border-color:white;
+border-width:thick;
+border-style:double;
+
+
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.tennis  h1 {
+	
+	
+font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.tennis h2 {
+	color:crimson;
+	text-align: center;
+font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+.tennis p {
+	
+	
+
+	background-color:aquamarine;
+	
+color:maroon;
+line-height:1.5em;
+
+padding:20px;  
+border-color:white;
+border-width:thick;
+border-style:double;
+}
+
+.handball h1 {
+	
+	
+font-size: 40px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.handball   h2 {
+	color:crimson;
+	text-align: center;
+font-size: 30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+.h p {
+	
+	
+
+	background-color:aquamarine;
+	
+color:maroon;
+line-height:1.5em;
+
+padding:20px;  
+border-color:white;
+border-width:thick;
+border-style:double;
+}
+
+
+.aboutus h1{
+	text-align: center;
+	font-family: helvetica;
+	
+		
+	font-size:40px;
+}
+.aboutus p{
+	
+	 float:right;
+	text-align: center;
+	word-spacing: 10px;
+	font-size: 20px;
+	
+	color:white;
+	background-color: Black;
+	
+
+line-height:1.5em;
+
+padding:20px;  
+	
+
+
+	
+	font-family: helvetica;
+	
+}
+.aboutus img{
+	float: left;
+	padding:0px;
+	margin:0px;
+}
+
+	
+	
